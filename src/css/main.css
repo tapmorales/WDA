@@ -51,7 +51,7 @@ footer {
 	grid-gap: 1px;
 }
 
-.content > div {
+.content__item {
 	display: flex;
 	background-color: white;
 	width: 100%;
@@ -61,8 +61,12 @@ footer {
 	border: 1px solid black;
 }
 
-.content div a img {
+.content__item a img {
 	width: 30%;
+}
+
+.content__item:hover {
+	cursor: pointer;
 }
 
 .menu {
