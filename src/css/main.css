@@ -67,6 +67,7 @@ footer {
 
 .content__item:hover {
 	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .menu {
