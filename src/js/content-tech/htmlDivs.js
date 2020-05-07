@@ -1,4 +1,4 @@
-const $Html = document.querySelector(".content-html");
+const $Html = document.querySelector(".content-tech__html");
 
 const htmlText = [
 	"&lt;!DOCTYPE html&gt;",
@@ -15,8 +15,10 @@ const htmlText = [
 	"&lt;div&gt;",
 	"&lt;h1 - h6&gt;",
 	"&lt;p&gt;",
-	"&lt;i&gt; / &lt;em&gt;",
-	"&lt;b&gt; / &lt;strong&gt;",
+	"&lt;i&gt;",
+	"&lt;em&gt;",
+	"&lt;b&gt;",
+	"&lt;strong&gt;",
 	"&lt;ul&gt;",
 	"&lt;ol&gt;",
 	"&lt;li&gt;",
@@ -100,7 +102,7 @@ const htmlId = [
 for (let i = 0; i < htmlText.length; i++) {
 	let div = document.createElement("div");
 	div.innerHTML = htmlText[i];
-	div.className = "content-html__item";
+	div.className = "content-tech__html--item";
 	div.id = htmlId[i];
 	$Html.appendChild(div);
 }

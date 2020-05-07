@@ -1,4 +1,3 @@
-const $content = document.querySelector(".content");
 const $contentTech = document.querySelector(".content-tech");
 
 $content.addEventListener("click", e => {

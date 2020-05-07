@@ -1,4 +1,4 @@
-.content-html {
+.content-tech__html {
 	background-color: transparent;
 	width: 100%;
 	height: 100%;
@@ -8,18 +8,18 @@
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.content-html__item {
+.content-tech__html--item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 100px;
 }
 
-.content-html__item:hover {
+.content-tech__html--item:hover {
 	cursor: pointer;
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
-.content-html__item:nth-child(41):hover {
+.content-tech__html--item:nth-child(41):hover {
 	border-bottom-left-radius: 20px;
 }
