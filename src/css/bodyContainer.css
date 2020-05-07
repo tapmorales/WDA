@@ -1,0 +1,60 @@
+html,
+body {
+	background: rgb(130, 130, 130);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: linear-gradient(-45deg, #e37682, #5f4d93);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+header {
+	background-color: transparent;
+	grid-area: h;
+}
+
+main {
+	background-color: white;
+	grid-area: m;
+	border-radius: 20px;
+}
+
+.aside1 {
+	background-color: transparent;
+	grid-area: a1;
+}
+
+.aside2 {
+	background-color: transparent;
+	grid-area: a2;
+}
+
+footer {
+	background-color: transparent;
+	grid-area: f;
+}
+
+.container {
+	background-color: transparent;
+	display: grid;
+	grid-template-columns: 0.5fr 2.5fr 0.5fr;
+	grid-template-rows: 6fr 8fr 2fr;
+	grid-gap: 5px;
+	grid-template-areas:
+		"h  h h"
+		"a1 m a2"
+		"f  f f";
+}

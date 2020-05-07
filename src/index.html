@@ -4,54 +4,207 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<link rel="stylesheet" href="css/bodyContainer.css" />
+		<link rel="stylesheet" href="css/menu.css" />
+		<link rel="stylesheet" href="css/contentMain.css" />
+		<link rel="stylesheet" href="css/contentHtml.css" />
 		<link rel="stylesheet" href="css/main.css" />
 	</head>
 	<body>
 		<div class="container">
 			<header></header>
 			<main>
+				<div class="menu">
+					<ul>
+						<li><a href="index.html">Início</a></li>
+						<li><a href="#">Sobre</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+				</div>
 				<div class="content">
-					<div class="menu">
-						<ul>
-							<li><a href="index.html">Início</a></li>
-							<li><a href="#">Sobre</a></li>
-							<li><a href="#">Contato</a></li>
-						</ul>
+					<div class="content__item" id="html5-content">
+						<img src="../img/html5-logo.png" />
 					</div>
-					<div class="content__item">
-						<a class="content__item--link" href="html5.html">
-							<img src="../img/html5-logo.png" />
-						</a>
+					<div class="content__item" id="css3-content">
+						<img src="../img/css3-logo.png" />
 					</div>
-					<div class="content__item">
-						<a class="content__item--link" href="css3.html"><img src="../img/css3-logo.png" /></a>
+					<div class="content__item" id="js-content">
+						<img src="../img/js-logo.png" />
 					</div>
-					<div class="content__item">
-						<a class="content__item--link" href="js.html"><img src="../img/js-logo.png" /></a>
+					<div class="content__item" id="node-content">
+						<img src="../img/nodejs-logo.png" />
 					</div>
-					<div class="content__item">
-						<a class="content__item--link" href="nodejs.html"><img src="../img/nodejs-logo.png" /></a>
+					<div class="content__item" id="npm-content">
+						<img src="../img/npm-scripts.png" />
 					</div>
-					<div class="content__item">
-						<a class="content__item--link" href="npmscript.html"><img src="../img/npm-scripts.png" /></a>
+					<div class="content__item" id="sass-content">
+						<img src="../img/sass-logo.png" />
 					</div>
-					<div class="content__item">
-						<a class="content__item--link" href="sass.html"><img src="../img/sass-logo.png" /></a>
+					<div class="content__item" id="gulp-content">
+						<img src="../img/gulp-logo.png" />
 					</div>
-					<div class="content__item">
-						<a class="content__item--link" href="gulp.html"><img src="../img/gulp-logo.png" /></a>
+					<div class="content__item" id="rollup-content">
+						<img src="../img/rollup-logo.png" />
 					</div>
-					<div class="content__item">
-						<a class="content__item--link" href="rollup.html"><img src="../img/rollup-logo.png" /></a>
-					</div>
-					<div class="content__item">
-						<a class="content__item--link" href="webpack.html"><img src="../img/webpack-logo.png" /></a>
+					<div class="content__item" id="webpack-content">
+						<img src="../img/webpack-logo.png" />
 					</div>
 				</div>
+
+				<div class="content-html hidden">
+					<div class="content__item" id="doctype">
+						&lt;!DOCTYPE html&gt;
+					</div>
+					<div class="content-html__item" id="html">
+						&lt;html&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;head&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;meta&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;title&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;link&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;body&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;header&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;main&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;footer&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;aside&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;div&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;h1 - h6&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;p&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;i&gt; / &lt;em&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;b&gt; / &lt;strong&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;ul&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;ol&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;li&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;a&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;br&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;hr&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;img&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;script&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;!-- --&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;style&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;nav&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;section&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;article&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;span&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;dl&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;dt&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;dd&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;table&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;thead&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;tfoot&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;tbody&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;th&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;tr&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;td&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;form&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;input&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;button&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;label&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;fieldset&gt;
+					</div>
+					<div class="content-html__item">
+						&lt;legend&gt;
+					</div>
+				</div>
+				<div class="content-css hidden">b</div>
+				<div class="content-js hidden">c</div>
+				<div class="content-node hidden">d</div>
+				<div class="content-npm hidden">e</div>
+				<div class="content-sass hidden">f</div>
+				<div class="content-gulp hidden">g</div>
+				<div class="content-rollup hidden">h</div>
+				<div class="content-webpack hidden">i</div>
 			</main>
 			<aside class="aside1"></aside>
 			<aside class="aside2"></aside>
 			<footer></footer>
 		</div>
+
+		<script src="js/clickContent.js"></script>
 	</body>
 </html>
